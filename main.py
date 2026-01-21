@@ -1,8 +1,11 @@
-"""
-Main entry point untuk game Batu Gunting Kertas
-Jalankan file ini untuk memulai game melawan AI yang bisa belajar
-"""
+#game secret number
 
-if __name__ == "__main__":
-    from game import main
-    main()
+secret_number = 111
+tebakan = int(input("Tebak Angka"))
+
+while secret_number != tebakan : 
+    print ("Haha.. kamu terjebak dalam looping selamanya")
+    print ("Coba tebak lagi")
+    tebakan = int(input("Tebak Angka:"))
+
+print("Selamat anda benar!!")
